@@ -1,0 +1,31 @@
+Document Path:          /placeOrder?userId=101&prodId=1
+Document Length:        1 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   36.898 seconds
+Complete requests:      30000
+Failed requests:        0
+Total transferred:      3180000 bytes
+HTML transferred:       30000 bytes
+Requests per second:    813.05 [#/sec] (mean)
+Time per request:       1229.932 [ms] (mean)
+Time per request:       1.230 [ms] (mean, across all concurrent requests)
+Transfer rate:          84.16 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0  253 725.8      0    7150
+Processing:     5  945 1105.0    209    4896
+Waiting:        5  937 1109.0    189    4895
+Total:          6 1198 1207.1    994    7554
+
+Percentage of the requests served within a certain time (ms)
+  50%    994
+  66%   1977
+  75%   2460
+  80%   2513
+  90%   2591
+  95%   3070
+  98%   3471
+  99%   3892
+ 100%   7554 (longest request)
